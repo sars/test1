@@ -22,9 +22,18 @@ end
 
 group :test do
   gem 'cucumber-rails', :require => false
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'spork-rails'
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  gem 'guard-spork'
+  gem 'guard-cucumber'
+  gem 'factory_girl_rails'
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
-  gem 'therubyracer'
+  gem 'rb-inotify', '~> 0.8.8'
 end
 
 gem 'jquery-rails'
