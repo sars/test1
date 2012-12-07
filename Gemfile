@@ -34,6 +34,11 @@ group :test do
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
   gem 'rb-inotify', '~> 0.8.8'
+  gem 'pickle'
+end
+
+group :development do
+  gem 'rb-readline'
 end
 
 gem 'jquery-rails'
